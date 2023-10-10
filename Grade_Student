@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int main()
+{
+    int per;
+    printf("Enter percentage : ");
+    scanf("%d",&per);
+    if(per>=90)
+        printf("Grade is A+\n");
+    else if(per >= 80)
+        printf("Grade is A\n");
+    else if(per >= 60)
+        printf("Grade is B\n");
+    else if(per >= 50)
+        printf("Grade is C\n");
+    else
+        printf("Reappear\n");
+    return 0;
+}
